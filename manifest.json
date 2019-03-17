@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "ChordifyMe",
+    "description": "Chordify description text",
+    "version": "1",
+    "author": "Sergi Mascaró",
+    "browser_action": {
+      "default_icon": "icons/icon_16.png",
+      "default_title": "Chordify a song"
+    },
+    "background": [{
+        "scripts" : ["background.js"]
+    }],
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+   }

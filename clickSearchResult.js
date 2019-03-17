@@ -1,0 +1,1 @@
+document.querySelector('#search > main > div > div > a').click();
